@@ -2,5 +2,6 @@
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'relevant-tweeps'
+require 'pry'
 
-puts Mytest.new.asd
+Server.run
